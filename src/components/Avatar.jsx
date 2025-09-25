@@ -1,12 +1,10 @@
 function Avatar() {
   return (
-    <>
-      <img
-        className="Avatar"
-        src="/images/Face Picture.jpg"
-        alt="A profile logo"
-      />
-    </>
+    <img
+      className="avatar"
+      src="/images/profile-image.jpeg"
+      alt="A profile logo"
+    />
   );
 }
 

@@ -1,4 +1,4 @@
-export default function SkillList(props) {
+export default function Skill(props) {
   return (
     <>
       <span className="skill" style={{ backgroundColor: props.color }}>

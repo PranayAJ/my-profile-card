@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import "./style.css";
 import Avatar from "./components/Avatar.jsx";
 import Intro from "./components/Intro.jsx";
-import SkillList from "./components/SkillList.jsx";
+import Skill from "./components/Skill.jsx";
 
 function App() {
   const skills = [
@@ -44,7 +44,7 @@ function App() {
         <ul className="skill-list">
           {skills.map((skill, index) => (
             <li key={index}>
-              <SkillList
+              <Skill
                 name={skill.name}
                 emoji={skill.emoji}
                 color={skill.color}
